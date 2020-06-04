@@ -1,5 +1,21 @@
 <!doctype html>
+<html lang=en style="background:seashell">
 <meta charset=utf-8>
-<title>redirect</title>
-<meta http-equiv=refresh content="0; url=/">
+<title>redirect webmurls to webmural</title>
 <link rel=help href="https://github.com/webmural/redirect">
+
+<script>
+switch (location.protocol) {
+  case "https:":
+  case "http:":
+  location.href = "https://webmural.github.io" +
+  location.pathname +
+  location.search +
+  location.hash
+}
+</script>
+
+<meta
+  content="0; url=https://webmural.github.io"
+  http-equiv=refresh
+>
