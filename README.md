@@ -1,8 +1,7 @@
-# [redirect](https://github.com/webmural/redirect)
+# webmural~s~
 
-1. [generate](https://github.com/webmural/redirect/generate) repo with name to redirect page from
-1. set github pages source to `master` in [settings](../../settings)
-1. edit destination url in [`index.html`](index.html)
-
-- `url=/example` redirects to `/example`
-- `url=/` slash redirects to homepage
+- redirects from [webmurals](https://webmurals.github.io) to [webmural](https://webmural.github.io)
+- pages redirect via [404.html](404.html) and [redirect.js](redirect.js)
+- homepage redirects via [index.html](index.html) and [redirect.js](redirect.js)
+- [index.html](index.html) has fallback to meta redirect
+- [404.html](404.html) has fallback to anchor
