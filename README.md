@@ -5,3 +5,11 @@
 - homepage redirects via [index.html](index.html) and [route.js](route.js)
 - [index.html](index.html) has fallback to meta redirect
 - [404.html](404.html) has fallback to anchor
+
+### supported
+
+- [`#jump`](https://webmurals.github.io#jump)
+- [`?search`](https://webmurals.github.io?search)
+- [`/page`](https://webmurals.github.io/page)
+- [`/page/`](https://webmurals.github.io/page/)
+- [`/page/...`](https://webmurals.github.io/page/...)
