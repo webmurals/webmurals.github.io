@@ -6,7 +6,7 @@
 - [index.html](index.html) has fallback to meta redirect
 - [404.html](404.html) has fallback to anchor
 
-### supported
+### supports
 
 - [`#jump`](https://webmurals.github.io#jump)
 - [`?search`](https://webmurals.github.io?search)
